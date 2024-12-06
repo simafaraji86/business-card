@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cardWrapper {
+    background-color: #FF9E9D;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    color: #fff;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+
+.imgWrapper {
+    width: 50%;
+}
+
+.imgWrapper img {
+    width: 100%;
+    border-radius: 100px;
+    border: 3px solid #fff;
+}
+.imgWrapper img:hover{
+    width: 200%;
+    position: relative;
+    z-index: 1;
+}
+
+.textsWrapper {
+    display: block;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: 100%;
+}
